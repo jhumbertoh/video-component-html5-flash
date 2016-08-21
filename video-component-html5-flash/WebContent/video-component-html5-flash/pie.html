@@ -1,0 +1,39 @@
+</div>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$(".various").click(function () {
+				var video = $(this).attr('href');
+				var videofilenet="[Component id="51af5522-c7f4-4935-9b2f-127d2516d04e:NC9kaWFtYW50ZWRpc2Vuby91bl9zZXJ2ZXJfYXBsaWNhY2lvbl9maWxlbmV0" name="diamantediseno/un_server_aplicacion_filenet"]LectorArchivosFileNet/Lector?tipo=V&nombre="+video;
+				var videoserverapp="[Component id="51af5522-c7f4-4935-9b2f-127d2516d04e:NC9kaWFtYW50ZWRpc2Vuby91bl9zZXJ2ZXJfYXBsaWNhY2lvbl9maWxlbmV0" name="diamantediseno/un_server_aplicacion_filenet"]Videos/"+video;
+				var poster= $(this).find('[name="poster"]').attr('src');
+                $(".various").fancybox({
+					padding: 7,
+					overlayOpacity: 0.7,
+					autoDimensions: false,
+					width: 720,
+					height: 540,
+					openEffect	: 'none',
+					closeEffect	: 'none',
+					content   : 
+								'<video poster="'+poster+'"  width="700" height="500" controls="controls"  preload>' +
+								'<source src="' + videoserverapp + '.mp4" type="video/mp4" />' +
+								'<source src="' + videofilenet + '.ogv"  type="video/ogg" />'+
+                                '<source src="' + videofilenet + '.webm" type="video/webm" />' +
+								'<object type="application/x-shockwave-flash" data="/wps/wcm/jsp/html/swf/flowplayer-3.2.18.swf" width="700" height="500">'+
+								'<param name="movie" value="/wps/wcm/jsp/html/swf/flowplayer-3.2.18.swf" />'+
+								'<param name="allowFullScreen" value="true" />'+
+								'<param name="wmode" value="transparent" />'+
+								'<param name="flashVars" value="config={\'playlist\':[\''+encodeURIComponent(poster)+'\',{\'url\':\''+encodeURIComponent(videoserverapp)+'.mp4\',\'autoPlay\':false}]}" />'+
+								'<img alt="Video Institucional" src="'+poster+'" width="700" height="500" title="No video playback capabilities, please download the video below"/>'+
+								'</object>'+
+								'</video>',
+					onComplete: function () { $("#fancybox-inner").css({ 'overflow': 'hidden' });},
+					onClosed: function () { $("#fancybox-inner").empty(); },
+					afterClose: function() { 
+						window.location.reload();
+					}
+				
+				});
+			});
+		});
+</script>

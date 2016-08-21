@@ -1,0 +1,565 @@
+/*
+    Document   : Style CSS Base Pesquera Diamante
+    Created on : 07/03/2011, 03:58:12 PM
+    Author     : Newiclus JMS
+    Description:
+        Hoja de estilo tipo Base para Pesquera Diamante
+*/
+
+
+
+/* ============================== HOME ================================ */
+.block {border-bottom: #CCC dashed 1px; padding-bottom: 26px; margin-bottom: 24px; }
+
+.blockBienvenido {width: 39.375em; background-color: #EBECED; min-height: 305px;}
+.blockBienvenido h1, .blockNoticias h1 {
+    color: white; background-color: #00588A;
+    font: lighter 25px Helvetica;
+	font-weight:100 !important;
+	line-height:25px !important;
+    height: 30px; padding: 5px 0 0 26px;
+	text-shadow: none;
+	margin:0;
+}
+.blockBienvenido dl {padding: 20px 24px; overflow: hidden; }
+.blockBienvenido dl .left {width: 243px; }
+.blockBienvenido dd h2 {font:lighter 22px 'Helvetica Light'; color: #4E4E4E; padding-bottom: 10px;  }
+.blockBienvenido dd p {text-align: justify; color: #656565; padding-bottom: 10px; line-height: 19px; }
+
+.btnVer {
+    display: inline-block;
+    background-color: #89C75A;
+    color: white; text-align:center;
+	font-size:0.88em;
+	line-height:17px;
+	font-family:'Helvetica Cond Light';
+	width: 70px; height:15px; 
+	letter-spacing:1px;
+	overflow:hidden;
+}
+.btnVer:hover {
+    background-color: #6DB03C;
+}
+
+.blockNoticias {width: 17.687em; background-color: #EBECED}
+.blockNoticias h1 {background-color: #8AC75A;}
+
+.blockSeccion {width: 283px; margin-left: 65px; }
+.blockSeccion:first-child {margin-left: 0px; }
+.blockSeccion h2, .boxNoticias h2 {
+    height: 38px; padding: 5px 0 0 10px;
+    background-color: #C6C8CA; color: white;
+    font: lighter 23px/34px 'Helvetica Light', Helvetica;
+}
+.blockSeccion img {padding: 1px 0px;}
+.blockSeccion p {
+    background-color:#519D2C;
+	text-align: right;
+	height: 14px;
+    padding: 2px 5px 3px 0;
+    color: white;
+    text-transform: uppercase;
+}
+.blockSeccion p a {color: white; font-family:'Helvetica Cond Light'; font-size:0.91em; letter-spacing:1px; line-height:18px;}
+.blockSeccion p a:hover {text-decoration: underline;}
+
+.boxNoticias ul {padding: 24px 0 14px 9px; overflow: hidden; }
+.boxNoticias ul li {float: left; color: #545454; width: 270px; margin-left: 75px; overflow:hidden; position:relative; }
+.boxNoticias ul li:first-child {margin-left: 0px;}
+.boxNoticias ul li h3 {font: 500 17px Helvetica; height: 40px; overflow:hidden; width:100%; letter-spacing:-1px; overflow:hidden; width:150%;}
+.boxNoticias ul li h3 span {display:inline-block;}
+.boxNoticias ul li em {position:absolute; top:0px; right:0px; padding:5px 10px 5px 2px; background-color:white; display:block;}
+.boxNoticias ul li p {text-align: justify; line-height: 18px; }
+.boxNoticias ul li a {color: #00588A; font-size:0.78em; font-family: 'Helvetica Cond Light'; letter-spacing:1px;}
+.boxNoticias ul li a:hover {text-decoration: underline;}
+
+
+
+/* ============================ EMPRESA =============================== */
+.barNav {font-size:11px; color:#C6C6C6; top:28px; right:15px;}
+.barNav a  {color: #C6C6C6;}
+.barNav a:hover, a.navActived {color: #444;}
+.home {background-color:#175784; display:inline-block; padding: 0 6px; }
+.home:hover {color: white !important;}
+
+.blockEmpresa {padding:10px 0 40px 0; }
+.blockEmpresa ul, .ulItems {width:257px; margin: 0 50px 0 3px; border-top: #B7B7B7 dashed 1px;}
+.blockEmpresa ul li, .ulItems li {
+	border-bottom: #B7B7B7 dashed 1px; color: #B6B6B6;
+	padding:10px 0; 
+	font: lighter 16px 'Helvetica';
+	letter-spacing:-1px;
+} 
+.blockEmpresa li a, .ulItems li a {color: #B6B6B6; text-transform:uppercase; letter-spacing:0px;}
+.blockEmpresa li a:hover, .textActive, .boxEmpresa h3 {color: #9BC778 !important;}
+.boldLEnuesempr {color: #9BC778 !important;}
+.boldPPfpes {color: #9BC778 !important;}
+.boldProdconsind {color: #9BC778 !important;}
+.boldCalsiscal {color: #9BC778 !important;}
+.boldRSrespons {color: #9BC778 !important;}
+.boldAmbcompamb {color: #9BC778 !important;}
+.boldNot2014 {color: #9BC778 !important;}
+.boldVidpesquerahaciendoperu {color: #9BC778 !important;}
+.boxEmpresa {width: 670px;}
+.boxEmpresa p {text-align:justify; padding-bottom:10px; color:#676767; line-height:21px;}
+.boxEmpresa div.content {padding-bottom:30px;}
+.boxEmpresa h2 {color: white; font: 300 31px/32px 'Helvetica'; top: 65px; left: 15px; text-shadow:#000 2px 2px 3px; letter-spacing:-1px;  }
+.boxEmpresa h2 span {font-size:18px; line-height:18px; letter-spacing:0px; color:#EEE;}
+.boxEmpresa h3 {font: 300 20px Helvetica;}
+.boxEmpresa h4 {font:300 14px Arial; padding-bottom:12px;}
+.boxEmpresa ol {list-style-image:url(/wps/wcm/connect/682ff98d-5e0d-41a7-850a-65843ed8edaa/vineta-grey.png?MOD=AJPERES&CACHEID=682ff98d-5e0d-41a7-850a-65843ed8edaa); padding:30px 0 0 20px; margin-left:40px;}
+.boxEmpresa ol li {list-style-image:url(/wps/wcm/connect/682ff98d-5e0d-41a7-850a-65843ed8edaa/vineta-grey.png?MOD=AJPERES&CACHEID=682ff98d-5e0d-41a7-850a-65843ed8edaa); padding: 0 0 25px 4px;}
+.boxEmpresa ol li h5 {color:·222; font:normal 14px Arial;}
+
+.dlGerencia dd {position:relative; overflow:hidden; width:100%; padding-bottom:50px;}
+.dlGerencia dd h3 {
+	font:normal 13px/34px Helvetica !important; 
+	color:#155784 !important; 
+	background-color:#C6C8CA;
+	height:35px; padding: 0 0 0 20px;
+}
+.dlGerencia dd div {width:452px; background-color:#ECECED;}
+.dlGerencia dd div p {min-height:65px; margin:0; padding:10px 34px 0 22px; }
+.dlGerencia dd div p em {font:italic 400 12px Arial;}
+.dlGerencia dd h3 em { font:normal 0.95em/35px Helvetica;}
+
+.boxEstrategia {padding-top:33px;}
+
+
+
+/* ============================= PLANTAS ============================== */
+.blockPlantas {
+	width: 979px; height: 572px; padding: 12px 0 0 0;
+	margin-bottom:30px;
+	position:relative;
+        background:url(/wps/wcm/connect/026d2832-00c6-4075-bef5-ec3936c03e56/bg-plantas.png?MOD=AJPERES&CACHEID=026d2832-00c6-4075-bef5-ec3936c03e56) 0 0 no-repeat;
+}
+.blockPlantas h1 {padding-left: 20px;}
+.blockPlantas .ulItems {border-color: white; margin-top: 10px; }
+.blockPlantas .ulItems li {padding-left:30px; border-color: white;}
+.blockPlantas .ulItems li a {color: white }
+.blockPlantas .ulItems li a:hover, .textActive2 {color: #676767 !important;}
+
+.puntos {color: white; text-transform:uppercase; font: 700 13px 'Helvetica Cond Light'; letter-spacing:1px;}
+.puntos a em {display:none;}
+
+.btnRed {
+	display:inline-block; width:14px; height:14px;
+	background:url(/wps/wcm/connect/36c876a2-d166-42c8-a18e-a9bff04e2f4b/bg-puntos.png?MOD=AJPERES&CACHEID=36c876a2-d166-42c8-a18e-a9bff04e2f4b) no-repeat;
+	background-position: 0 -24px;
+}
+
+.btnGrey {
+	display:inline-block; width:14px; height:14px;
+	background:url(/wps/wcm/connect/36c876a2-d166-42c8-a18e-a9bff04e2f4b/bg-puntos.png?MOD=AJPERES&CACHEID=36c876a2-d166-42c8-a18e-a9bff04e2f4b) no-repeat;
+	background-position: 0 0;
+}
+
+.tooltip {background-color: #89C75A; padding:15px 5px 15px 15px; width:380px; z-index: 20; display:none;}
+.tooltip .btnVer {background-color:#175783; font-size:0.75em; padding-top:1px;}
+.tooltip .btnVer:hover {background-color:#1D6FA5; }
+
+.textTool {width: 264px; padding-left:10px; color:white;}
+.textTool h4 {font:bold 18px 'Helvetica Cond Light'; padding-bottom:8px; text-transform:uppercase;}
+.textTool p {font-size: 10px; padding-bottom:5px;}
+.textTool p strong {color:#175783; font-size: 11px;}
+
+.lineGrey {display:none;}
+
+
+
+/* =========================== PESCA Y PRODUCCION ============================= */
+ol.olPesca li p {line-height:normal !important; padding-bottom:5px;}
+ol.olPesca li {padding-bottom:15px;}
+
+ul.ulInfografia li {font-size:14px; }
+
+#message {
+	position:absolute; padding:5px; background:#555; color:#fff; width:110px;
+	font:normal 12px Verdana, Geneva, sans-serif;
+}
+
+
+
+/* ============================ PRODUCTOS ============================= */
+.boxConsumo {padding: 15px 0 5px 0; overflow:hidden; position:relative; width:100%;}
+.boxConsumo h3 {padding-bottom:10px;}
+.boxEmpresa .boxConsumo h3 {font-size:20px;}
+.boxEmpresa .boxConsumo .left h3 {font-size:19px;}
+
+
+
+/* ============================== CALIDAD ================================ */
+.boxCertif {width: 86.5%; padding-left:10px;}
+
+.logoCertA, .logoCertB, .logoCertC, .logoCertD, .logoCertE {background:url(../images/logo/logo-certificacion.png) no-repeat; }
+.logoCertB {background-position:0 -78px;}
+.logoCertC {background-position:0 -155px;}
+.logoCertD {background-position:0 -231px;}
+.logoCertE {background-position:0 -305px;}
+
+
+
+/* ============================== NOTICIAS ================================ */
+.blockNews .boxNews {margin-bottom:30px;}
+
+.boxNews h3 {
+	padding-bottom:10px; 
+	text-transform:uppercase;
+	font-weight:lighter !important;
+	font-size:18px !important;
+	letter-spacing:-1px !important;
+
+}
+.boxNews img {padding-right:15px;}
+
+.btnVerMas, .btnVerMenos {
+	background-color: #89C75A;
+    color: white;
+    display: inline-block;
+    font: bold 11px/14px 'Helvetica';
+	height: 13px;
+    padding: 2px 10px 2px 10px;
+}
+
+.boxNews .btnVerMas {margin-top:5px;}
+.boxNews .btnVerMenos {margin-top:5px;}
+
+.btnVerMenos {display: none;}
+
+.paginador {
+	font-size:12px;
+	text-align:center;
+	padding-top:15px;
+	letter-spacing:2px;
+	color:#696969;
+}
+
+.paginador a {color:#696969; }
+
+.paginador a:hover {color:#069;}
+
+a.pagCurrent {font-weight:bold;}
+
+a.pagFirst {
+	background-color:#DDD; 
+	display:inline-block; 
+	height:17px;
+	line-height:15px;
+	margin:0 10px; 
+	color:#175784 !important;
+	width: 25px;
+} 
+
+a.pagFirst:hover {
+	background-color:#175784;  
+	color: #DDD !important;
+} 
+
+
+.pagFirst {
+	background-color:#DDD; 
+	display:inline-block; 
+	height:17px;
+	line-height:15px;
+	margin:0 10px; 
+	color:#175784 !important;
+	width: 25px;
+} 
+
+.pagFirst:hover {
+	background-color:#175784;  
+	color: #DDD !important;
+}
+
+
+
+/* ============================ TRABAJE AQUI ============================== */
+.blockTrabaje h1 {font-weight:500; font-size:33px !important; letter-spacing:-2px;}
+
+.textTrabaje {
+	width:325px; 
+	text-align:justify; 
+	border-top:#999 dashed 1px; 
+	border-bottom:#999 dashed 1px;
+	padding: 18px 0; margin-top:23px;
+}
+
+.textTrabaje p, .textTrabaje address {
+	color:#6F6F6F;
+	line-height: 22px;
+}
+
+.textTrabaje address {font: normal 12px/22px Arial;}
+.textTrabaje address a {color:#6F6F6F;}
+.textTrabaje address a:hover {text-decoration:underline;s}
+
+.formTrabaje {
+	width:300px;
+	overflow:hidden;
+	position:relative;
+	margin-left:195px;
+}
+
+.formTrabaje table {width: 100%;}
+
+.tableForm tr td {height:52px; position:relative;}
+.tableForm td p {color:#6F6F6F;}
+.tableForm td input[type="text"], .tableForm td input[type="file"], .tableForm td textarea, .tableForm td select {
+	background-color:#E9E9E9;
+	border:#B1B1B1 solid 1px;
+	height:23px; width:295px;
+	padding-left:3px;
+	font:normal 12px/23px Helvetica;
+}
+
+.tableForm td input.fPhone{width: 135px;}
+.tableForm td textarea {height:93px;}
+
+.btnSend {
+	width:100px; height:21px;
+	background-color: #89C75A;
+	padding-top:4px;
+	color:white;
+	cursor:pointer;
+	margin-top:15px;
+	font: bold 15px 'Helvetica Cond Light';
+	display:inline-block;
+	text-align:center;
+}
+
+td .btnSend:first-child {opacity: 0.8;}
+
+#cv {visibility:hidden;}
+
+.btnExaminar{
+	color:white;
+	background-color: #89C75A;
+	width:100px;
+	display:inline-block;
+	text-align:center;
+	font-size:15px;
+	line-height:23px;
+	height:24px;
+	margin:0 0 0 5px;
+}
+
+
+
+/* ============================== CONTACTENOS ================================ */
+.boxContactenos {
+	width:400px;
+	margin-left:150px;
+}
+
+
+td .title-label { color:#6F6F6F; font-size: 0.75em; display:block}
+
+.tableForm td select {
+	width:299px;
+	height:25px;
+	padding-top:1px;
+	color:#666;
+	font-size:14px;
+}
+
+/* ============================== MEMORIA ================================ */
+.boxMemoria {
+	padding-top:7px;
+	width:70%;
+}
+
+.boxMemoria img {
+	padding-right:10px;
+}
+
+.boxMemoria a, .boxEmpresa .boxMemoria a:hover {color:white !important;}
+
+
+
+/* ============================== INFOGRAFIAS ================================ */
+.link-back {
+	display:block;
+	background:url(../images/bg/icon-triangulo-blue.png) 0 1px no-repeat;
+	padding:0 0 0 16px;
+	font:700 14px Helvetica;
+	color:#9C0;
+	float:right;
+	margin:15px 10px 5px 0;
+}
+
+.main-title{
+	font-size:16px;
+	font-weight:bold;
+	width:950px;
+	height:55px;
+	color:#414142;
+	background-color:#dfdfdf;
+	padding-top:25px;
+	padding-left:20px;
+	margin-top:8px;
+}
+.accordeon-title{
+	font-size:13px;
+	width:970px;
+	height:70px;
+	color:#333333;
+	background-color:#ededed;
+	margin-top:5px;
+	cursor:pointer;
+}
+.accordeon-content{
+	width:970px;
+	height:0px;
+	margin-top:5px;
+	display:none;
+}
+.manipulator{
+	top:53px;
+	left:51px;
+	float:left;
+	position:absolute;
+	cursor:pointer;
+}
+#info_2 .manipulator{
+	cursor: pointer;
+    float: left;
+    left: 52px;
+    position: absolute;
+    top: 52px;
+}
+
+
+.logo-image{
+	float:right;
+	margin-top:-3px;
+	margin-right:10px;
+}
+.plus{
+	margin-left:50px;
+}
+.munis{
+	margin-right:50px;
+}
+.titulo{
+	position:absolute;
+	font-size:16px;
+	left: 51px;
+	top: 27px;
+}
+.texto{
+	margin-top:28px;
+	position:absolute;
+	margin-left:45px;
+	font-size:13px;
+}
+.icon{
+	margin-top:20px;
+	position:absolute;
+	margin-left:10px;
+}
+
+ul.ul-infografias {
+	border:none;
+	margin: 40px auto;
+	overflow:hidden;
+	position:relative;
+	width:88% !important;
+}
+
+ul.ul-infografias li {
+	float:left;	
+	border: #FFF solid 1px;;
+	padding: 20px;
+	margin: 0 25px;
+	text-align:center;
+	width:186px;
+}
+
+ul.ul-infografias li h4 {
+	border-top: 1px dashed #B7B7B7;
+	color: #365881;
+	font: lighter 18px Arial;
+	padding:10px 0;
+	margin:25px 0 0 0;
+	text-align:center;
+}
+
+ul.ul-infografias li a {
+	color:white;
+	visibility:hidden;
+	font: 300 12px Arial;
+	padding:3px 15px;
+	text-transform:capitalize;
+}
+ul.ul-infografias li a:hover {
+	color:white !important;
+}
+
+.current-info {
+	border: #9C0 solid 1px !important;
+}
+.current-info a {
+	visibility:visible !important;
+}
+
+.titulo-flash {
+	background-color: #F5F5F5;
+	color: #787878;
+	font: 300 11px sans-serif;
+	padding-left: 27px;
+	padding-top: 10px;
+}
+div.message {
+	background-color:#9CBAD6;
+	font: 700 17px/54px sans-serif;
+	text-align: center;
+	color: #EFEFEF;
+}
+
+/* Estilos para la Galeria de Videos */
+#cont_items{
+	float:left;
+	width:100%;
+	margin-bottom:10px;}
+
+#cont_items .item{
+        width: 203px;	
+        height:145px;
+	margin:0 10px 25px 0;
+	float:left;
+}
+.item .play{
+	width:55px;
+	height:55px;
+	display:block;
+	position:absolute;
+	margin:40px 0 0 75px;
+	background:url(/wps/wcm/connect/9e11b2ce-c970-4b5f-97c7-ef2ea1de9310/play.png?MOD=AJPERES&CACHEID=9e11b2ce-c970-4b5f-97c7-ef2ea1de9310) no-repeat center center;
+	cursor:pointer;
+}
+#cont_items .item .img{
+	height:145px;
+        width: 203px;
+}
+.item .desc{
+	width:96%;
+	padding:3px 2%;
+	color:#fff;
+	font-size:12px;
+	height:15px;
+	float:left;
+}
+.item .img{
+	z-index:-1;	
+}
+.f_gris_t_60{
+	background-image:url(/wps/wcm/connect/27dd3904-4a75-4549-bc43-92dfdeca2c92/azul_60.png?MOD=AJPERES&CACHEID=27dd3904-4a75-4549-bc43-92dfdeca2c92);
+	background-repeat:repeat;
+}
+
+.item .titulo{
+	float:left;
+	width:60%;
+	height:21px;
+}
